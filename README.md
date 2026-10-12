@@ -1,11 +1,13 @@
-# osu!web
+# Torii Web
 
-[![Tests](https://github.com/ppy/osu-web/actions/workflows/tests.yml/badge.svg)](https://github.com/ppy/osu-web/actions/workflows/tests.yml)
-[![Lint](https://github.com/ppy/osu-web/actions/workflows/lint.yml/badge.svg)](https://github.com/ppy/osu-web/actions/workflows/lint.yml)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/osu-web/localized.svg)](https://crowdin.com/project/osu-web)
-[![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/ppy)
+[![Tests](https://github.com/ShikkesoraSIM/torii-web/actions/workflows/tests.yml/badge.svg)](https://github.com/ShikkesoraSIM/torii-web/actions/workflows/tests.yml)
+[![Lint](https://github.com/ShikkesoraSIM/torii-web/actions/workflows/lint.yml/badge.svg)](https://github.com/ShikkesoraSIM/torii-web/actions/workflows/lint.yml)
+[![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/zeuKQquCSE)
 
-The browser-facing portion of [osu!](https://osu.ppy.sh/home).
+The web portal for [Torii](https://github.com/ShikkesoraSIM/torii-osu), forked from [osu!web](https://github.com/ppy/osu-web).
+
+> [!NOTE]
+> Torii Web is currently in active development targeted at `https://torii-web.shikkesora.com/`. The current live web portal is at [lazer.shikkesora.com](https://lazer.shikkesora.com/).
 
 ## Getting Started
 
@@ -13,30 +15,21 @@ See the [setup guide](SETUP.md) for a rundown on how to get a development enviro
 
 ## Contributing
 
-We welcome all contributions, but keep in mind that we already have the full site designed (mock-ups). If you wish to work on a new section, please open a ticket and we will give you what you need from a design perspective to proceed. If you want to make *changes* to the design, we recommend you open an issue with your intentions before spending too much time, to ensure no effort is wasted.
+We welcome contributions to Torii Web. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for information about code standards and architectural guidelines.
 
-If you wish to help with localisation efforts, head over to [crowdin](https://crowdin.com/project/osu-web). If you're unsure of what you can help with, check out the [list of open issues](https://github.com/ppy/osu-web/issues). (especially those with the ["good first issue"](https://github.com/ppy/osu-web/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22) label).
+- Before starting large visual redesigns or new feature sections, open an issue or discuss your ideas on [Discord](https://discord.gg/zeuKQquCSE) to ensure alignment with our roadmap.
+- Keep pull requests focused, clean, and testable.
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for information about the code standards we expect from pull requests.
+## Seeking Help & Community
 
-While we have standards in place, nothing is set in stone. If you have an issue with the way code is structured; with any libraries we are using; with any processes involved with contributing, *please* bring it up. We welcome all feedback so we can make contributing to this project as pain-free as possible.
-
-Our team believes in **human contributions**. Any contribution – be it an issue report or a pull request – which is created by, documented by, or aided by AI/LLM usage will typically be **closed and locked without further discussion**.
-
-## Seeking Help
-
-If you need help with anything, you have two options:
-
-### Create an Issue
-
-If you have something you want to discuss in detail, or have hit an issue which you believe others will also have in deployment or development of the system, [opening an issue](https://github.com/ppy/osu-web/issues) is the best way to get help. It creates a permanent resource for others wishing to contribute to conversation. Please **make sure to search first** in case someone else has already addressed the same issue!
-
-### Discord
-
-Alternatively, you can join the [development discord](https://discord.gg/ppy) for assistance.
+- **Issues**: If you encounter a bug or have a feature proposal, check [existing issues](https://github.com/ShikkesoraSIM/torii-web/issues) or open a new one.
+- **Discord**: Join the [Torii Community Discord](https://discord.gg/zeuKQquCSE) for discussion, questions, and development chat.
 
 ## Licence
 
-osu!web is licensed under AGPL version 3 or later. Please see [the licence file](LICENCE) for more information. [tl;dr](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)) if you want to use any code, design or artwork from this project, attribute it and make your project open source under the same licence.
+Torii Web is licensed under the **GNU AGPL version 3 or later**. Please see [the licence file](LICENCE) for details.
 
-Please note that this *does not cover* the usage of the "osu!" or "ppy" branding in any software, resources, advertising or promotion, as this is protected by trademark law.
+Original upstream copyright © ppy Pty Ltd. Torii modifications © 2025–2026 Torii Contributors.
+
+> [!NOTE]
+> This *does not cover* the usage of the "osu!" or "ppy" branding in any software, resources, advertising or promotion, as this is protected by trademark law. Torii maintains independent branding and identity.
